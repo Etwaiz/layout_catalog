@@ -57,10 +57,11 @@
     line-height: 18px;
     margin: 0;
     margin-bottom: 4px;
+    transition: 300ms;
   }
 
   &:hover .card__title {
-    color: #34568b;
+    $color-title-hover: #34568b;
   }
 
   &__code {
@@ -123,6 +124,7 @@
     font-weight: 700;
     font-size: 14px;
     height: 40px;
+    transition: 300ms;
 
     &:hover {
       background-color: $color-card;

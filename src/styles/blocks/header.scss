@@ -53,10 +53,11 @@ body {
   align-items: center;
   justify-content: center;
   text-decoration: none;
-  color: black;
+  color: $color-primary;
   font-size: 12px;
   text-transform: uppercase;
   height: 60px;
+  transition: 300ms;
 }
 
 .menu__link:hover {
