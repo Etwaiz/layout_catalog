@@ -63,12 +63,12 @@ body {
   color: var(--blue);
 }
 
-.menu__link--active {
+.is-active {
   position: relative;
   color: var(--blue);
 }
 
-.menu__link--active::after {
+.is-active::after {
   content: '';
   position: absolute;
   background-color: var(--blue);
